@@ -1,0 +1,8 @@
+C:\Users\FIC\backend\ProjetoEvento\bin\Debug\netstandard2.0\ProjetoEvento.deps.json
+C:\Users\FIC\backend\ProjetoEvento\bin\Debug\netstandard2.0\ProjetoEvento.dll
+C:\Users\FIC\backend\ProjetoEvento\bin\Debug\netstandard2.0\ProjetoEvento.pdb
+C:\Users\FIC\backend\ProjetoEvento\obj\Debug\netstandard2.0\ProjetoEvento.csproj.CoreCompileInputs.cache
+C:\Users\FIC\backend\ProjetoEvento\obj\Debug\netstandard2.0\ProjetoEvento.AssemblyInfoInputs.cache
+C:\Users\FIC\backend\ProjetoEvento\obj\Debug\netstandard2.0\ProjetoEvento.AssemblyInfo.cs
+C:\Users\FIC\backend\ProjetoEvento\obj\Debug\netstandard2.0\ProjetoEvento.dll
+C:\Users\FIC\backend\ProjetoEvento\obj\Debug\netstandard2.0\ProjetoEvento.pdb

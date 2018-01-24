@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.css">
+    
+    <title>Projeto Fórum</title>
+  </head>
+  <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <a class="navbar-brand" href="#">Projeto Forúm</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Usuários</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tópicos</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Forúm</span></a>
+                      </li>
+                  </ul>
+                </div>
+              </nav>
+        <div class="container">
+            <br>
+            <h1>Postagens</h1>
+            <br>
+            <button type="button" onclick="novaPostagem()" class="btn btn-success">Cadastrar</button>
+            <br>
+            <br>
+            <span>Quantidade de tópicos: <span id="qtdRegistros"></span></span>
+            <br>
+            <br>
+            <table class="table" id="tbPostagens">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Usuário</th>
+                        <th scope="col">Tópico</th>
+                        <th scope="col">Mensagem</th>
+                        <th scope="col">Data Publicação</th>
+                        <th></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      
+                    </tbody>
+                  </table>
+            <hr>
+            <div class="modal fade" id="formularioModal" tabindex="-1" role="dialog" aria-hidden="true" aria-labelledby="formularioModal">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="formularioModal"><span  id="acaoFormulario"></span></h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                        
+                            <div class="modal-body">  
+                                <form>
+                                    <div class="form-group" id="form-idTopico">
+                                            <label for="idTopico">Id</label>
+                                            <input type="number" disabled class="form-control" id="idTopico" placeholder="id">
+                                        </div>
+                                    <div class="form-group">
+                                        <label for="tituloTopico">Titulo</label>
+                                        <input type="text" class="form-control" id="tituloTopico"  autocomplete="off" placeholder="Titulo">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="descricaoTopico">Descrição</label>
+                                        <input type="text" class="form-control" id="descricaoTopico"  autocomplete="off" placeholder="Decrição">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                <button type="button" onclick="atualizar()" class="btn btn-primary btn-atualizar">Atualizar</button>
+                                <button type="button" onclick="cadastrar()" class="btn btn-success  btn-cadastrar">Cadastrar</button>
+
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.js"></script>
+
+    <script language="JavaScript">
+
+    
+    $(document).ready(function(){
+        BuscarDados();
+    });
+
+    $('#tbPostagens tbody').on('click', '.atualizar', function(event){
+        $('.btn-cadastrar').css('display','none');
+        $('.btn-atualizar').css('display','');
+        
+        $('#idTopico').val( $(this).data('id'));
+        $('#tituloTopico').val( $(this).data('titulo'));
+        $('#descricaoTopico').val( $(this).data('descricao'));
+        
+        $('#formularioModal').modal('show');
+    });
+
+    function atualizar(){
+        var topico = {
+            id: parseInt($('#idTopico').val()),
+            titulo: $('#tituloTopico').val(),
+            descricao:$('#descricaoTopico').val( )
+        }
+
+        var url = 'http://localhost:5000/api/v1/topico/' + $('#idTopico').val();
+        
+        $.ajax({
+            url: url,
+            type: 'PUT',
+            Accept : "application/json",
+            contentType: "application/json", 
+            dataType: "json",
+            data: JSON.stringify(topico),
+            success: function (data) {
+                $('#formularioModal').modal('hide');
+                $.alert({
+                            title: 'Sucesso',
+                            content: 'Dados atualizados',
+                        });
+                BuscarDados();
+            },
+            error: function (data) {
+                $.alert({
+                    title: 'Erro!',
+                    content: data.statusText,
+                });
+            }
+        });
+    }
+
+    function cadastrar(){
+        var topico = {
+            titulo: $('#tituloTopico').val(),
+            descricao:$('#descricaoTopico').val()
+        }
+        
+        $.ajax({
+            url: 'http://localhost:5000/api/v1/topico',
+            type: 'POST',
+            Accept : "application/json",
+            contentType: "application/json", 
+            dataType: "json",
+            data: JSON.stringify(topico),
+            success: function (data) {
+                $('#formularioModal').modal('hide');
+                $.alert({
+                            title: 'Sucesso',
+                            content: 'Cadastro efetuado',
+                        });
+                BuscarDados();
+            },
+            error: function (data) {
+                $.alert({
+                    title: 'Erro!',
+                    content: data.statusText,
+                });
+            }
+        });
+    }
+
+    function novaPostagem(){
+
+        $('.btn-atualizar').css('display','none');
+        $('.btn-cadastrar').css('display','');
+        
+        $('#idTopico').val('');
+        $('#tituloTopico').val('');
+        $('#descricaoTopico').val('');
+
+        $('#formularioModal').modal('show');
+    }
+
+    function cancelar(){
+        $('#idTopico').val();
+        $('#tituloTopico').val();
+        $('#descricaoTopico').val();
+
+        $('#formularioModal').modal('hide');
+    }
+
+    $('#tbPostagens tbody').on('click', '.excluir', function(event){
+        var idTopico = $(this).data('id');
+        $.confirm({
+        title: 'Confirmação!',
+        content: 'Confirma a exclusão do topico ' + $(this).data('nome'),
+        buttons: {
+            confirmar: function () {
+                $.ajax({
+                    url: 'http://localhost:5000/api/v1/topico/' + idTopico,
+                    type: 'delete',
+                    dataType: 'json',
+                    success: function (data) {
+                        $.alert({
+                            title: 'Sucesso',
+                            content: 'Exclusão efetuada',
+                        });
+                        BuscarDados();
+                    },
+                    error: function (data) {
+                        $.alert({
+                            title: 'Erro!',
+                            content: data.statusText,
+                        });
+                    }
+                });
+            },
+            cancelar: function () {
+                
+            }
+        }
+        });
+    });
+
+    function BuscarDados(){
+        
+            $.ajax({
+                type: "GET",
+                url: "http://localhost:5000/api/v1/postagem",
+                success: function (data) {
+
+                    var cols = "";
+
+                    for (var i = 0; i < data.length; i++) {
+                        cols += "<tr>";
+                        cols += "<td>" + data[i].id + "</td>";
+                        cols += "<td>" + data[i].nomeusuario + "</td>";
+                        cols += "<td>" + data[i].topico + "</td>";
+                        cols += "<td>" + data[i].mensagem + "</td>";
+                        cols += "<td>" + data[i].dataPublicacao + "</td>";
+                        cols += "<td><button class='btn btn-info atualizar' data-id='"+ data[i].id +"' data-titulo='"+ data[i].titulo +"' data-descricao='"+ data[i].descricao + "' + data-datacadastro='"+ data[i].datacadastro +"' onclick='atualizar'()'>Atualizar</button>  |  ";
+                        cols += "<button  class='btn btn-danger excluir' data-id='"+ data[i].id +"'  data-titulo='"+ data[i].titulo +"'>Excluir</button></td>";
+                        cols += "</tr>";
+                    }
+
+                    $("#tbPostagens tbody").empty();
+                    $("#tbPostagens tbody").append(cols);
+                    $("#qtdRegistros").html(data.length);
+                },
+                error: function (ex) {
+                    alert("Erro: " + ex.status);
+                }
+            })
+        
+    }
+   
+    </script>
+  </body>
+</html>

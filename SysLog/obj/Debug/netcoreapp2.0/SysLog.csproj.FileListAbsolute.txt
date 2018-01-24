@@ -1,0 +1,10 @@
+C:\Users\FIC\backend\SysLog\bin\Debug\netcoreapp2.0\SysLog.deps.json
+C:\Users\FIC\backend\SysLog\bin\Debug\netcoreapp2.0\SysLog.runtimeconfig.json
+C:\Users\FIC\backend\SysLog\bin\Debug\netcoreapp2.0\SysLog.runtimeconfig.dev.json
+C:\Users\FIC\backend\SysLog\bin\Debug\netcoreapp2.0\SysLog.dll
+C:\Users\FIC\backend\SysLog\bin\Debug\netcoreapp2.0\SysLog.pdb
+C:\Users\FIC\backend\SysLog\obj\Debug\netcoreapp2.0\SysLog.csproj.CoreCompileInputs.cache
+C:\Users\FIC\backend\SysLog\obj\Debug\netcoreapp2.0\SysLog.AssemblyInfoInputs.cache
+C:\Users\FIC\backend\SysLog\obj\Debug\netcoreapp2.0\SysLog.AssemblyInfo.cs
+C:\Users\FIC\backend\SysLog\obj\Debug\netcoreapp2.0\SysLog.dll
+C:\Users\FIC\backend\SysLog\obj\Debug\netcoreapp2.0\SysLog.pdb

@@ -1,0 +1,10 @@
+C:\Users\FIC\backend\exemploLista\bin\Debug\netcoreapp2.0\exemploLista.deps.json
+C:\Users\FIC\backend\exemploLista\bin\Debug\netcoreapp2.0\exemploLista.runtimeconfig.json
+C:\Users\FIC\backend\exemploLista\bin\Debug\netcoreapp2.0\exemploLista.runtimeconfig.dev.json
+C:\Users\FIC\backend\exemploLista\bin\Debug\netcoreapp2.0\exemploLista.dll
+C:\Users\FIC\backend\exemploLista\bin\Debug\netcoreapp2.0\exemploLista.pdb
+C:\Users\FIC\backend\exemploLista\obj\Debug\netcoreapp2.0\exemploLista.csproj.CoreCompileInputs.cache
+C:\Users\FIC\backend\exemploLista\obj\Debug\netcoreapp2.0\exemploLista.AssemblyInfoInputs.cache
+C:\Users\FIC\backend\exemploLista\obj\Debug\netcoreapp2.0\exemploLista.AssemblyInfo.cs
+C:\Users\FIC\backend\exemploLista\obj\Debug\netcoreapp2.0\exemploLista.dll
+C:\Users\FIC\backend\exemploLista\obj\Debug\netcoreapp2.0\exemploLista.pdb

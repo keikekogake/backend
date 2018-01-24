@@ -1,0 +1,55 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 20px
+}
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4
+}
+
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%
+}
+
+#qrCode {
+    margin: 15px
+}
+
+@media screen and (max-width:767px) {
+    .carousel-caption {
+        display: none
+    }
+}
+
+table {
+    width: 80%;
+    background-color: lightslategray;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+td {
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: white;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+th {
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15pt;
+    background-color: rgb(57, 68, 80);
+    color: white;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+tr:hover {
+    background-color: darkblue;
+}

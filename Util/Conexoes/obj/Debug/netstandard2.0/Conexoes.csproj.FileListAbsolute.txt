@@ -1,0 +1,8 @@
+C:\Users\keike\Documents\ProjetosWeb\codeXP\Util\Conexoes\bin\Debug\netstandard2.0\Conexoes.deps.json
+C:\Users\keike\Documents\ProjetosWeb\codeXP\Util\Conexoes\bin\Debug\netstandard2.0\Conexoes.dll
+C:\Users\keike\Documents\ProjetosWeb\codeXP\Util\Conexoes\bin\Debug\netstandard2.0\Conexoes.pdb
+C:\Users\keike\Documents\ProjetosWeb\codeXP\Util\Conexoes\obj\Debug\netstandard2.0\Conexoes.csproj.CoreCompileInputs.cache
+C:\Users\keike\Documents\ProjetosWeb\codeXP\Util\Conexoes\obj\Debug\netstandard2.0\Conexoes.AssemblyInfoInputs.cache
+C:\Users\keike\Documents\ProjetosWeb\codeXP\Util\Conexoes\obj\Debug\netstandard2.0\Conexoes.AssemblyInfo.cs
+C:\Users\keike\Documents\ProjetosWeb\codeXP\Util\Conexoes\obj\Debug\netstandard2.0\Conexoes.dll
+C:\Users\keike\Documents\ProjetosWeb\codeXP\Util\Conexoes\obj\Debug\netstandard2.0\Conexoes.pdb

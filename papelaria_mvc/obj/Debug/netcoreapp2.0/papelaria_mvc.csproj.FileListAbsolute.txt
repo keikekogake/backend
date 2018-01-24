@@ -1,0 +1,10 @@
+C:\Users\FIC\backend\papelaria_mvc\bin\Debug\netcoreapp2.0\papelaria_mvc.deps.json
+C:\Users\FIC\backend\papelaria_mvc\bin\Debug\netcoreapp2.0\papelaria_mvc.runtimeconfig.json
+C:\Users\FIC\backend\papelaria_mvc\bin\Debug\netcoreapp2.0\papelaria_mvc.runtimeconfig.dev.json
+C:\Users\FIC\backend\papelaria_mvc\bin\Debug\netcoreapp2.0\papelaria_mvc.dll
+C:\Users\FIC\backend\papelaria_mvc\bin\Debug\netcoreapp2.0\papelaria_mvc.pdb
+C:\Users\FIC\backend\papelaria_mvc\obj\Debug\netcoreapp2.0\papelaria_mvc.csproj.CoreCompileInputs.cache
+C:\Users\FIC\backend\papelaria_mvc\obj\Debug\netcoreapp2.0\papelaria_mvc.AssemblyInfoInputs.cache
+C:\Users\FIC\backend\papelaria_mvc\obj\Debug\netcoreapp2.0\papelaria_mvc.AssemblyInfo.cs
+C:\Users\FIC\backend\papelaria_mvc\obj\Debug\netcoreapp2.0\papelaria_mvc.dll
+C:\Users\FIC\backend\papelaria_mvc\obj\Debug\netcoreapp2.0\papelaria_mvc.pdb

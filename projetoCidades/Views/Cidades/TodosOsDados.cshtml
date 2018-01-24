@@ -1,0 +1,42 @@
+@model IEnumerable<projetoCidades.Models.Cidade>
+
+<div>
+    @* o @ é utilizado para execução de comando RAZOR *@
+    <h2>Todos os dados</h2>
+    
+        <table>
+            <tr>
+                <th>
+                    ID
+                </th>
+                <th>
+                    Cidades
+                </th>
+                <th>
+                    Estado
+                </th>
+                <th>
+                    Habitantes
+                </th>
+            </tr>
+                @{
+                    foreach(var item in Model) {
+                        <tr>
+                            <td>
+                                @item.Id
+                            </td>
+                            <td>
+                                @item.Nome
+                            </td>
+                            <td>
+                                @item.Estado
+                            </td>
+                            <td>
+                                @item.Habitantes
+                            </td>
+                        </tr>
+                    }
+                }
+            
+        </table>
+</div>

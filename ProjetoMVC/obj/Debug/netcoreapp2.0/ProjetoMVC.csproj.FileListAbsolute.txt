@@ -1,0 +1,10 @@
+C:\Users\FIC\backend\ProjetoMVC\bin\Debug\netcoreapp2.0\ProjetoMVC.deps.json
+C:\Users\FIC\backend\ProjetoMVC\bin\Debug\netcoreapp2.0\ProjetoMVC.runtimeconfig.json
+C:\Users\FIC\backend\ProjetoMVC\bin\Debug\netcoreapp2.0\ProjetoMVC.runtimeconfig.dev.json
+C:\Users\FIC\backend\ProjetoMVC\bin\Debug\netcoreapp2.0\ProjetoMVC.dll
+C:\Users\FIC\backend\ProjetoMVC\bin\Debug\netcoreapp2.0\ProjetoMVC.pdb
+C:\Users\FIC\backend\ProjetoMVC\obj\Debug\netcoreapp2.0\ProjetoMVC.csproj.CoreCompileInputs.cache
+C:\Users\FIC\backend\ProjetoMVC\obj\Debug\netcoreapp2.0\ProjetoMVC.AssemblyInfoInputs.cache
+C:\Users\FIC\backend\ProjetoMVC\obj\Debug\netcoreapp2.0\ProjetoMVC.AssemblyInfo.cs
+C:\Users\FIC\backend\ProjetoMVC\obj\Debug\netcoreapp2.0\ProjetoMVC.dll
+C:\Users\FIC\backend\ProjetoMVC\obj\Debug\netcoreapp2.0\ProjetoMVC.pdb

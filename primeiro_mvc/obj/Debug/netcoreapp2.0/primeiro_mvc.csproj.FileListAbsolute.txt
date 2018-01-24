@@ -1,0 +1,10 @@
+C:\Users\FIC\backend\primeiro_mvc\bin\Debug\netcoreapp2.0\primeiro_mvc.deps.json
+C:\Users\FIC\backend\primeiro_mvc\bin\Debug\netcoreapp2.0\primeiro_mvc.runtimeconfig.json
+C:\Users\FIC\backend\primeiro_mvc\bin\Debug\netcoreapp2.0\primeiro_mvc.runtimeconfig.dev.json
+C:\Users\FIC\backend\primeiro_mvc\bin\Debug\netcoreapp2.0\primeiro_mvc.dll
+C:\Users\FIC\backend\primeiro_mvc\bin\Debug\netcoreapp2.0\primeiro_mvc.pdb
+C:\Users\FIC\backend\primeiro_mvc\obj\Debug\netcoreapp2.0\primeiro_mvc.csproj.CoreCompileInputs.cache
+C:\Users\FIC\backend\primeiro_mvc\obj\Debug\netcoreapp2.0\primeiro_mvc.AssemblyInfoInputs.cache
+C:\Users\FIC\backend\primeiro_mvc\obj\Debug\netcoreapp2.0\primeiro_mvc.AssemblyInfo.cs
+C:\Users\FIC\backend\primeiro_mvc\obj\Debug\netcoreapp2.0\primeiro_mvc.dll
+C:\Users\FIC\backend\primeiro_mvc\obj\Debug\netcoreapp2.0\primeiro_mvc.pdb
