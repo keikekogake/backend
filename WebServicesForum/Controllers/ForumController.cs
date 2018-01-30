@@ -17,7 +17,7 @@ namespace WebServicesForum.Controllers {
         //     return user.Listar ().Where (x => x.Id == id).FirstOrDefault ();
         // }
         public IActionResult Get (int id) {
-            var rs = new JsonResult (user.Listar ().Where (x => x.Id == id).FirstOrDefault ());
+            var rs = new JsonResult (user.BuscarDados ().Where (x => x.Id == id).FirstOrDefault ());
             if (rs.Value == null) {
                 rs.StatusCode = 204;
                 rs.Value = $"o ID: {id} não foi encontrado";
@@ -32,7 +32,7 @@ namespace WebServicesForum.Controllers {
         [HttpGet]
         [Route ("api/listartodos/usuario")]
         public IEnumerable<UsuarioModel> Get () {
-            return user.Listar ();
+            return user.BuscarDados ();
         }
 
         [HttpPost]

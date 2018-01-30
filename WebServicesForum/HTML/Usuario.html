@@ -90,7 +90,7 @@
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                 <button type="button" onclick="atualizar()" class="btn btn-primary btn-atualizar">Atualizar</button>
-                                <button type="button" onclick="cadastrar()" class="btn btn-success  btn-cadastrar">Cadastrar</button>
+                                <button type="button" onclick="Cadastrar()" class="btn btn-success  btn-cadastrar">Cadastrar</button>
 
                             </div>
                         </div>
@@ -161,7 +161,7 @@
         });
     }
 
-    function cadastrar(){
+    function Cadastrar(){
         var usuario = {
             nome: $('#nomeUsuario').val(),
             login:$('#loginUsuario').val(),
@@ -251,7 +251,7 @@
         
             $.ajax({
                 type: "GET",
-                url: "http://localhost:5000/api/v1/usuario",
+                url: "http://localhost:5000/api/listartodos/usuario",
                 success: function (data) {
 
                     var cols = "";

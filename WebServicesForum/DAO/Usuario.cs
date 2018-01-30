@@ -6,7 +6,6 @@ using WebServicesForum.Models;
 
 namespace WebServicesForum.DAO {
     public class Usuario : AcessaBD, IAcoes {
-        
 
         public bool Atualizar () {
             return false;
@@ -41,7 +40,7 @@ namespace WebServicesForum.DAO {
             } catch (Exception ex) {
                 throw new Exception (ex.Message);
             } finally {
-                Close();
+                Close ();
             }
         }
 
@@ -97,8 +96,8 @@ namespace WebServicesForum.DAO {
             }
         }
 
-        public List<UsuarioModel> Listar () {
-            List<UsuarioModel> list = new List<UsuarioModel>();
+        public List<UsuarioModel> BuscarDados () {
+            List<UsuarioModel> list = new List<UsuarioModel> ();
 
             try {
                 if (Open ()) {
@@ -108,12 +107,12 @@ namespace WebServicesForum.DAO {
                     dr = cmd.ExecuteReader ();
 
                     while (dr.Read ()) {
-                        list.Add(new UsuarioModel {
-                            Id = dr.GetInt32(0),
-                            Nome = dr.GetString(1),
-                            Login = dr.GetString(2),
-                            Senha = dr.GetString(3),
-                            DataCadastro = dr.GetDateTime(4)
+                        list.Add (new UsuarioModel {
+                            Id = dr.GetInt32 (0),
+                                Nome = dr.GetString (1),
+                                Login = dr.GetString (2),
+                                Senha = dr.GetString (3),
+                                DataCadastro = dr.GetDateTime (4)
                         });
                     }
                 }

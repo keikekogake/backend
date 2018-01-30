@@ -21,6 +21,7 @@ namespace WebServicesForum.Models {
         [MaxLength (12, ErrorMessage = "Este campo deve ter no máximo 12 caracteres")]
         [RegularExpression (@"^[a-zA-Z-'\s]{1,40}$", ErrorMessage = "Você não pode adicionar caracter especial")]
         public string Senha { get; set; }
+        
         public DateTime DataCadastro { get; set; }
     }
 }
