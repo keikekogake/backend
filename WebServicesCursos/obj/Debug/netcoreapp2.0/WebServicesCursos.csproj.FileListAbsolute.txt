@@ -1,0 +1,10 @@
+C:\Users\FIC\backend\WebServicesCursos\bin\Debug\netcoreapp2.0\WebServicesCursos.deps.json
+C:\Users\FIC\backend\WebServicesCursos\bin\Debug\netcoreapp2.0\WebServicesCursos.runtimeconfig.json
+C:\Users\FIC\backend\WebServicesCursos\bin\Debug\netcoreapp2.0\WebServicesCursos.runtimeconfig.dev.json
+C:\Users\FIC\backend\WebServicesCursos\bin\Debug\netcoreapp2.0\WebServicesCursos.dll
+C:\Users\FIC\backend\WebServicesCursos\bin\Debug\netcoreapp2.0\WebServicesCursos.pdb
+C:\Users\FIC\backend\WebServicesCursos\obj\Debug\netcoreapp2.0\WebServicesCursos.csproj.CoreCompileInputs.cache
+C:\Users\FIC\backend\WebServicesCursos\obj\Debug\netcoreapp2.0\WebServicesCursos.AssemblyInfoInputs.cache
+C:\Users\FIC\backend\WebServicesCursos\obj\Debug\netcoreapp2.0\WebServicesCursos.AssemblyInfo.cs
+C:\Users\FIC\backend\WebServicesCursos\obj\Debug\netcoreapp2.0\WebServicesCursos.dll
+C:\Users\FIC\backend\WebServicesCursos\obj\Debug\netcoreapp2.0\WebServicesCursos.pdb

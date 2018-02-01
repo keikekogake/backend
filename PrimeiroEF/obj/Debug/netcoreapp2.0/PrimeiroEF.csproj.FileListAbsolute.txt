@@ -1,0 +1,10 @@
+C:\Users\FIC\backend\PrimeiroEF\bin\Debug\netcoreapp2.0\PrimeiroEF.deps.json
+C:\Users\FIC\backend\PrimeiroEF\bin\Debug\netcoreapp2.0\PrimeiroEF.runtimeconfig.json
+C:\Users\FIC\backend\PrimeiroEF\bin\Debug\netcoreapp2.0\PrimeiroEF.runtimeconfig.dev.json
+C:\Users\FIC\backend\PrimeiroEF\bin\Debug\netcoreapp2.0\PrimeiroEF.dll
+C:\Users\FIC\backend\PrimeiroEF\bin\Debug\netcoreapp2.0\PrimeiroEF.pdb
+C:\Users\FIC\backend\PrimeiroEF\obj\Debug\netcoreapp2.0\PrimeiroEF.csproj.CoreCompileInputs.cache
+C:\Users\FIC\backend\PrimeiroEF\obj\Debug\netcoreapp2.0\PrimeiroEF.AssemblyInfoInputs.cache
+C:\Users\FIC\backend\PrimeiroEF\obj\Debug\netcoreapp2.0\PrimeiroEF.AssemblyInfo.cs
+C:\Users\FIC\backend\PrimeiroEF\obj\Debug\netcoreapp2.0\PrimeiroEF.dll
+C:\Users\FIC\backend\PrimeiroEF\obj\Debug\netcoreapp2.0\PrimeiroEF.pdb
