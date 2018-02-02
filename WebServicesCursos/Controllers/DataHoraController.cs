@@ -18,6 +18,7 @@ namespace WebServicesCursos.Controllers {
         [HttpGet]
         public IEnumerable<DataHora> Listar () {
             return contexto.DataHora.ToList ();
+            
         }
 
         [HttpPost]

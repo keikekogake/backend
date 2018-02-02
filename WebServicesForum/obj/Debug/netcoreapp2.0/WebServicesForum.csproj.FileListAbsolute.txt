@@ -8,3 +8,13 @@ c:\Users\FIC\backend\WebServicesForum\obj\Debug\netcoreapp2.0\WebServicesForum.A
 c:\Users\FIC\backend\WebServicesForum\obj\Debug\netcoreapp2.0\WebServicesForum.AssemblyInfo.cs
 c:\Users\FIC\backend\WebServicesForum\obj\Debug\netcoreapp2.0\WebServicesForum.dll
 c:\Users\FIC\backend\WebServicesForum\obj\Debug\netcoreapp2.0\WebServicesForum.pdb
+C:\Users\40314256865\Documents\backend\WebServicesForum\bin\Debug\netcoreapp2.0\WebServicesForum.deps.json
+C:\Users\40314256865\Documents\backend\WebServicesForum\bin\Debug\netcoreapp2.0\WebServicesForum.runtimeconfig.json
+C:\Users\40314256865\Documents\backend\WebServicesForum\bin\Debug\netcoreapp2.0\WebServicesForum.runtimeconfig.dev.json
+C:\Users\40314256865\Documents\backend\WebServicesForum\bin\Debug\netcoreapp2.0\WebServicesForum.dll
+C:\Users\40314256865\Documents\backend\WebServicesForum\bin\Debug\netcoreapp2.0\WebServicesForum.pdb
+C:\Users\40314256865\Documents\backend\WebServicesForum\obj\Debug\netcoreapp2.0\WebServicesForum.csproj.CoreCompileInputs.cache
+C:\Users\40314256865\Documents\backend\WebServicesForum\obj\Debug\netcoreapp2.0\WebServicesForum.AssemblyInfoInputs.cache
+C:\Users\40314256865\Documents\backend\WebServicesForum\obj\Debug\netcoreapp2.0\WebServicesForum.AssemblyInfo.cs
+C:\Users\40314256865\Documents\backend\WebServicesForum\obj\Debug\netcoreapp2.0\WebServicesForum.dll
+C:\Users\40314256865\Documents\backend\WebServicesForum\obj\Debug\netcoreapp2.0\WebServicesForum.pdb

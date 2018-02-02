@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.css">
     
-    <title>Projeto Forum</title>
+    <title>Projeto Cidades</title>
   </head>
   <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -90,7 +90,7 @@
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                 <button type="button" onclick="atualizar()" class="btn btn-primary btn-atualizar">Atualizar</button>
-                                <button type="button" onclick="Cadastrar()" class="btn btn-success  btn-cadastrar">Cadastrar</button>
+                                <button type="button" onclick="cadastrar()" class="btn btn-success  btn-cadastrar">Cadastrar</button>
 
                             </div>
                         </div>
@@ -107,14 +107,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.js"></script>
 
     <script language="JavaScript">
-
     
     $(document).ready(function(){
         BuscarDados();
     });
-
     
-
     $('#tbUsuarios tbody').on('click', '.atualizar', function(event){
         $('.btn-cadastrar').css('display','none');
         $('.btn-atualizar').css('display','');
@@ -126,15 +123,13 @@
         
         $('#formularioModal').modal('show');
     });
-
     function atualizar(){
         var usuario = {
             id: parseInt($('#idUsuario').val()),
             nome: $('#nomeUsuario').val(),
-            login:$('#loginUsuario').val( ),
-            senha:$('#senhaUsuario').val()
+            login: $('#loginUsuario').val( ),
+            senha: $('#senhaUsuario').val()
         }
-
         var url = 'http://localhost:5000/api/v1/usuario/' + $('#idUsuario').val();
         
         $.ajax({
@@ -160,8 +155,8 @@
             }
         });
     }
-
-    function Cadastrar(){
+    
+    function cadastrar(){
         var usuario = {
             nome: $('#nomeUsuario').val(),
             login:$('#loginUsuario').val(),
@@ -169,7 +164,7 @@
         }
         
         $.ajax({
-            url: 'http://localhost:5000/api/cadastrar/usuario',
+            url: 'http://localhost:5000/api/v1/usuario',
             type: 'POST',
             Accept : "application/json",
             contentType: "application/json", 
@@ -191,9 +186,7 @@
             }
         });
     }
-
     function novoUsuario(){
-
         $('.btn-atualizar').css('display','none');
         $('.btn-cadastrar').css('display','');
         
@@ -201,19 +194,15 @@
         $('#nomeUsuario').val('');
         $('#loginUsuario').val('');
         $('#senhaUsuario').val('');
-
         $('#formularioModal').modal('show');
     }
-
     function cancelar(){
         $('#idUsuario').val();
         $('#nomeUsuario').val();
         $('#loginUsuario').val();
         $('#senhaUsuario').val();
-
         $('#formularioModal').modal('hide');
     }
-
     $('#tbUsuarios tbody').on('click', '.excluir', function(event){
         var idUsuario = $(this).data('id');
         $.confirm({
@@ -246,16 +235,13 @@
         }
         });
     });
-
     function BuscarDados(){
         
             $.ajax({
                 type: "GET",
-                url: "http://localhost:5000/api/listartodos/usuario",
+                url: "http://localhost:5000/api/v1/usuario",
                 success: function (data) {
-
                     var cols = "";
-
                     for (var i = 0; i < data.length; i++) {
                         cols += "<tr>";
                         cols += "<td>" + data[i].id + "</td>";
@@ -267,7 +253,6 @@
                         cols += "<button  class='btn btn-danger excluir' data-id='"+ data[i].id +"'  data-nome='"+ data[i].nome +"'>Excluir</button></td>";
                         cols += "</tr>";
                     }
-
                     $("#tbUsuarios tbody").empty();
                     $("#tbUsuarios tbody").append(cols);
                     $("#qtdRegistros").html(data.length);
