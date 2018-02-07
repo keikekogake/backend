@@ -4,5 +4,57 @@
         <name>WebServicesCursos</name>
     </assembly>
     <members>
+        <member name="M:WebServicesCursos.Controllers.AreaController.Listar">
+            <summary>
+            Lista todas as Áreas cadastradas no sistema.
+            </summary>
+            <returns>Lista de áreas</returns>
+            <response code="200"> Retorna uma lista de áreas </response>
+            <response code="400"> Ocorreu um erro </response>
+        </member>
+        <member name="M:WebServicesCursos.Controllers.AreaController.Listar(System.Int32)">
+            <summary>
+            Lista todas as Áreas cadastradas no sistema.
+            </summary>
+            <returns>Lista de áreas</returns>
+            <response code="200"> Retorna uma lista de áreas </response>
+            <response code="400"> Ocorreu um erro </response>
+            /// <response code="404"> Área não encontrada </response>
+        </member>
+        <member name="M:WebServicesCursos.Controllers.AreaController.Cadastrar(WebServicesCursos.Model.Area)">
+            <summary>
+            Cadastra uma nova área
+            </summary>
+            <param name="area">Objeto AREA</param>
+            <remarks>
+            Modelo de dados que deve ser enviado para cadastrar a area request:
+            
+                POST /area
+                {
+                    "nome" : "nome da área"
+                }
+            </remarks>
+            <response code="200"> Retorna a área cadastrada </response>
+            <response code="400"> Ocorreu um erro </response>
+        </member>
+        <member name="M:WebServicesCursos.Controllers.AreaController.Atualizar(System.Int32,WebServicesCursos.Model.Area)">
+            <summary>
+            Atualiza uma área
+            </summary>
+            <param name="id"> ID da área que será atualizada </param>
+            <param name="area"> Novo nome da área </param>
+            <returns> Retorna a área atualizada </returns>
+            <remarks>
+            Modelo de dados que deve ser enviado para atualizar a area:
+            
+                POST /area
+                {
+                    "idarea" : id da área    
+                    "nome" : "nome da área"
+                }
+            </remarks>
+            <response code="200"> Retorna a área atualizada </response>
+            <response code="400"> Ocorreu um erro </response>
+        </member>
     </members>
 </doc>

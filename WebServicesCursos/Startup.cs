@@ -32,7 +32,11 @@ namespace WebServicesCursos {
                         Title = "Cursos API",
                         Description = "Teste simples",
                         TermsOfService = "None",
-                        Contact = new Contact { Name = "Roberto Keike Kogake", Email = "keike.kogake@gmail.com", Url = "https://github.com/keikekogake" }
+                        Contact = new Contact {
+                            Name = "Roberto Keike Kogake", 
+                            Email = "keike.kogake@gmail.com", 
+                            Url = "https://github.com/keikekogake"
+                        }
                 });
                 // Caminho da documentação
                 var basePath = AppContext.BaseDirectory;

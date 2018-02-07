@@ -12647,23 +12647,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\40314256865\\.nuget\\packages\\": {},
+    "C:\\Users\\FIC\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\40314256865\\Documents\\backend\\WebServicesCursos\\WebServicesCursos.csproj",
+      "projectUniqueName": "C:\\Users\\FIC\\backend\\WebServicesCursos\\WebServicesCursos.csproj",
       "projectName": "WebServicesCursos",
-      "projectPath": "C:\\Users\\40314256865\\Documents\\backend\\WebServicesCursos\\WebServicesCursos.csproj",
-      "packagesPath": "C:\\Users\\40314256865\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\40314256865\\Documents\\backend\\WebServicesCursos\\obj\\",
+      "projectPath": "C:\\Users\\FIC\\backend\\WebServicesCursos\\WebServicesCursos.csproj",
+      "packagesPath": "C:\\Users\\FIC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\FIC\\backend\\WebServicesCursos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\40314256865\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\FIC\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
