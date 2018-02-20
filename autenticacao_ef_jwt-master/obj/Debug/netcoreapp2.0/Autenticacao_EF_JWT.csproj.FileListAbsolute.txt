@@ -1,0 +1,10 @@
+/Users/corujasdev/visualstudiocode/dotnetcore/Autenticacao_EF_JWT/obj/Debug/netcoreapp2.0/Autenticacao_EF_JWT.csproj.CoreCompileInputs.cache
+/Users/corujasdev/visualstudiocode/dotnetcore/Autenticacao_EF_JWT/obj/Debug/netcoreapp2.0/Autenticacao_EF_JWT.AssemblyInfoInputs.cache
+/Users/corujasdev/visualstudiocode/dotnetcore/Autenticacao_EF_JWT/obj/Debug/netcoreapp2.0/Autenticacao_EF_JWT.AssemblyInfo.cs
+/Users/corujasdev/visualstudiocode/dotnetcore/Autenticacao_EF_JWT/bin/Debug/netcoreapp2.0/Autenticacao_EF_JWT.deps.json
+/Users/corujasdev/visualstudiocode/dotnetcore/Autenticacao_EF_JWT/bin/Debug/netcoreapp2.0/Autenticacao_EF_JWT.runtimeconfig.json
+/Users/corujasdev/visualstudiocode/dotnetcore/Autenticacao_EF_JWT/bin/Debug/netcoreapp2.0/Autenticacao_EF_JWT.runtimeconfig.dev.json
+/Users/corujasdev/visualstudiocode/dotnetcore/Autenticacao_EF_JWT/bin/Debug/netcoreapp2.0/Autenticacao_EF_JWT.dll
+/Users/corujasdev/visualstudiocode/dotnetcore/Autenticacao_EF_JWT/bin/Debug/netcoreapp2.0/Autenticacao_EF_JWT.pdb
+/Users/corujasdev/visualstudiocode/dotnetcore/Autenticacao_EF_JWT/obj/Debug/netcoreapp2.0/Autenticacao_EF_JWT.dll
+/Users/corujasdev/visualstudiocode/dotnetcore/Autenticacao_EF_JWT/obj/Debug/netcoreapp2.0/Autenticacao_EF_JWT.pdb

@@ -1,0 +1,10 @@
+/Users/corujasdev/visualstudiocode/dotnetcore/Autenticacao_EF_Cookie/bin/Debug/netcoreapp2.0/Autenticacao_EF_Cookie.deps.json
+/Users/corujasdev/visualstudiocode/dotnetcore/Autenticacao_EF_Cookie/bin/Debug/netcoreapp2.0/Autenticacao_EF_Cookie.runtimeconfig.json
+/Users/corujasdev/visualstudiocode/dotnetcore/Autenticacao_EF_Cookie/bin/Debug/netcoreapp2.0/Autenticacao_EF_Cookie.runtimeconfig.dev.json
+/Users/corujasdev/visualstudiocode/dotnetcore/Autenticacao_EF_Cookie/bin/Debug/netcoreapp2.0/Autenticacao_EF_Cookie.dll
+/Users/corujasdev/visualstudiocode/dotnetcore/Autenticacao_EF_Cookie/bin/Debug/netcoreapp2.0/Autenticacao_EF_Cookie.pdb
+/Users/corujasdev/visualstudiocode/dotnetcore/Autenticacao_EF_Cookie/obj/Debug/netcoreapp2.0/Autenticacao_EF_Cookie.csproj.CoreCompileInputs.cache
+/Users/corujasdev/visualstudiocode/dotnetcore/Autenticacao_EF_Cookie/obj/Debug/netcoreapp2.0/Autenticacao_EF_Cookie.AssemblyInfoInputs.cache
+/Users/corujasdev/visualstudiocode/dotnetcore/Autenticacao_EF_Cookie/obj/Debug/netcoreapp2.0/Autenticacao_EF_Cookie.AssemblyInfo.cs
+/Users/corujasdev/visualstudiocode/dotnetcore/Autenticacao_EF_Cookie/obj/Debug/netcoreapp2.0/Autenticacao_EF_Cookie.dll
+/Users/corujasdev/visualstudiocode/dotnetcore/Autenticacao_EF_Cookie/obj/Debug/netcoreapp2.0/Autenticacao_EF_Cookie.pdb

@@ -1,0 +1,12 @@
+/Users/corujasdev/visualstudiocode/dotnetcore/LoginRedes/bin/Debug/netcoreapp2.0/app.db
+/Users/corujasdev/visualstudiocode/dotnetcore/LoginRedes/bin/Debug/netcoreapp2.0/LoginRedes.deps.json
+/Users/corujasdev/visualstudiocode/dotnetcore/LoginRedes/bin/Debug/netcoreapp2.0/LoginRedes.runtimeconfig.json
+/Users/corujasdev/visualstudiocode/dotnetcore/LoginRedes/bin/Debug/netcoreapp2.0/LoginRedes.runtimeconfig.dev.json
+/Users/corujasdev/visualstudiocode/dotnetcore/LoginRedes/bin/Debug/netcoreapp2.0/LoginRedes.dll
+/Users/corujasdev/visualstudiocode/dotnetcore/LoginRedes/bin/Debug/netcoreapp2.0/LoginRedes.pdb
+/Users/corujasdev/visualstudiocode/dotnetcore/LoginRedes/obj/Debug/netcoreapp2.0/LoginRedes.csproj.CoreCompileInputs.cache
+/Users/corujasdev/visualstudiocode/dotnetcore/LoginRedes/obj/Debug/netcoreapp2.0/UserSecretsAssemblyInfo.cs
+/Users/corujasdev/visualstudiocode/dotnetcore/LoginRedes/obj/Debug/netcoreapp2.0/LoginRedes.AssemblyInfoInputs.cache
+/Users/corujasdev/visualstudiocode/dotnetcore/LoginRedes/obj/Debug/netcoreapp2.0/LoginRedes.AssemblyInfo.cs
+/Users/corujasdev/visualstudiocode/dotnetcore/LoginRedes/obj/Debug/netcoreapp2.0/LoginRedes.dll
+/Users/corujasdev/visualstudiocode/dotnetcore/LoginRedes/obj/Debug/netcoreapp2.0/LoginRedes.pdb
