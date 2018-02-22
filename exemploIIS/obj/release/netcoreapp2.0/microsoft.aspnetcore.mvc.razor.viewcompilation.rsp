@@ -1,0 +1,12 @@
+C:\Users\FIC\backend\exemploIIS
+--output-path=obj\release\netcoreapp2.0\
+--application-name=exemploIIS
+--content-root=C:\Users\FIC\backend\exemploIIS
+--file=C:\Users\FIC\backend\exemploIIS\Views\Home\About.cshtml
+--file=C:\Users\FIC\backend\exemploIIS\Views\Home\Contact.cshtml
+--file=C:\Users\FIC\backend\exemploIIS\Views\Home\Index.cshtml
+--file=C:\Users\FIC\backend\exemploIIS\Views\Shared\Error.cshtml
+--file=C:\Users\FIC\backend\exemploIIS\Views\Shared\_Layout.cshtml
+--file=C:\Users\FIC\backend\exemploIIS\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=C:\Users\FIC\backend\exemploIIS\Views\_ViewImports.cshtml
+--file=C:\Users\FIC\backend\exemploIIS\Views\_ViewStart.cshtml

@@ -10,3 +10,15 @@
 /Users/corujasdev/visualstudiocode/dotnetcore/LoginRedes/obj/Debug/netcoreapp2.0/LoginRedes.AssemblyInfo.cs
 /Users/corujasdev/visualstudiocode/dotnetcore/LoginRedes/obj/Debug/netcoreapp2.0/LoginRedes.dll
 /Users/corujasdev/visualstudiocode/dotnetcore/LoginRedes/obj/Debug/netcoreapp2.0/LoginRedes.pdb
+C:\Users\FIC\backend\loginredessociais-master\bin\Debug\netcoreapp2.0\app.db
+C:\Users\FIC\backend\loginredessociais-master\bin\Debug\netcoreapp2.0\LoginRedes.deps.json
+C:\Users\FIC\backend\loginredessociais-master\bin\Debug\netcoreapp2.0\LoginRedes.runtimeconfig.json
+C:\Users\FIC\backend\loginredessociais-master\bin\Debug\netcoreapp2.0\LoginRedes.runtimeconfig.dev.json
+C:\Users\FIC\backend\loginredessociais-master\bin\Debug\netcoreapp2.0\LoginRedes.dll
+C:\Users\FIC\backend\loginredessociais-master\bin\Debug\netcoreapp2.0\LoginRedes.pdb
+C:\Users\FIC\backend\loginredessociais-master\obj\Debug\netcoreapp2.0\LoginRedes.csproj.CoreCompileInputs.cache
+C:\Users\FIC\backend\loginredessociais-master\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\FIC\backend\loginredessociais-master\obj\Debug\netcoreapp2.0\LoginRedes.AssemblyInfoInputs.cache
+C:\Users\FIC\backend\loginredessociais-master\obj\Debug\netcoreapp2.0\LoginRedes.AssemblyInfo.cs
+C:\Users\FIC\backend\loginredessociais-master\obj\Debug\netcoreapp2.0\LoginRedes.dll
+C:\Users\FIC\backend\loginredessociais-master\obj\Debug\netcoreapp2.0\LoginRedes.pdb

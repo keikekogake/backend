@@ -47,7 +47,6 @@ namespace LoginRedes
                 facebookOptions.AppSecret = Configuration["Authentication:Facebook:AppSecret"];
             });
             #endregion
-            
 
             #region GitHub
             // Criar seu aplicativo em https://developer.github.com

@@ -13164,23 +13164,23 @@
     ]
   },
   "packageFolders": {
-    "/Users/corujasdev/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\FIC\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/corujasdev/visualstudiocode/dotnetcore/LoginRedes/LoginRedes.csproj",
+      "projectUniqueName": "C:\\Users\\FIC\\backend\\loginredessociais-master\\LoginRedes.csproj",
       "projectName": "LoginRedes",
-      "projectPath": "/Users/corujasdev/visualstudiocode/dotnetcore/LoginRedes/LoginRedes.csproj",
-      "packagesPath": "/Users/corujasdev/.nuget/packages/",
-      "outputPath": "/Users/corujasdev/visualstudiocode/dotnetcore/LoginRedes/obj/",
+      "projectPath": "C:\\Users\\FIC\\backend\\loginredessociais-master\\LoginRedes.csproj",
+      "packagesPath": "C:\\Users\\FIC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\FIC\\backend\\loginredessociais-master\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/corujasdev/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\FIC\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
